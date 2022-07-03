@@ -1,0 +1,216 @@
+/*html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    min-height: 100vh;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+*/
+/*IMPORTS*/
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;600;800&display=swap');
+
+/*RESETS*/
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 100%;
+    box-sizing: border-box;
+    font-family: 'Maven Pro', sans-serif;   
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 2), rgba(0, 0, 0, 0.5)70%), url("assets/img/lens1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/*MAIN*/
+.mainContainer{
+    position: relative;
+    width: 80%;
+    height: 90%;
+}
+
+/*HEADER*/
+header {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    height: 75px;
+    padding: 0 50px;
+}
+
+/*header div:nth-of-type(1){
+    flex-grow: 1;
+}*/
+
+.logo{
+    width: 170px;
+    margin-bottom: 3px;
+    margin-right: 40px;
+   /* margin-right: 50px;  buna media yazilacak*/
+}
+
+.nav ul {
+    display:flex;
+    align-items:center;
+    width: 100%;
+}
+
+/*
+nav ul li{                      // ekrani daraltinca menuler alta sarkar
+    display: inline-block;
+    margin-right: 20px;
+
+}
+*/
+
+.nav ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;   
+}
+.nav ul li a{
+    font-weight: 400;
+    color: white;  
+}
+.nav ul li a:hover{
+    font-weight: 600;
+
+}
+.active{
+    font-weight: 600;
+}
+
+.search{
+    margin-bottom: 4px;
+    margin-right: 15px;
+    margin-left: 40px;
+    
+}
+.search input{
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+.search input:focus{
+    outline: none;
+}
+
+.icon-search{
+    color: white;
+}
+
+/* banner ..........*/
+.bannerContainer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+.bannerLeft{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+.bannerLeft h1{
+    font-size: 40px;
+    letter-spacing: -2px;
+    color: #ffffff;
+}
+.bannerLeft p{
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+}
+.nokta {
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.search-banner input{
+    width: 200px;
+    font-size: 20px;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid white;
+    color: white;
+    padding-left: 5px;
+    padding-bottom: 5px;
+
+}
+.search-banner input:focus{
+    outline: none;
+}
+.place input::placeholder{
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+    font-family: FontAwesome;
+    overflow: visible;
+    vertical-align: top;
+    display: inline-block !important;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+/* screen */
+.bannerRight{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.video-screen{
+    position: absolute;
+    right: 80px;
+    top: 140px;
+}
+.camera-screen{
+    position: absolute;
+    right: 0;
+}
+.video-screen video{
+    width: 250px;
+}
+.camera-screen img{
+    width: 400px;
+    
+}
