@@ -3,5 +3,5 @@
 
 
 <a href="https://linkedin.com/in/aydinkivanc/" style="display: inline-block; width: 50px;">
-  <img src="https://img.shields.io/badge/-Linkedin-000?style=quare&labelColor=000&logo=Linkedin&logoColor=white" alt="Linkedin" style="width: 10%; ">
+  <img src="https://img.shields.io/badge/-Linkedin-000?style=quare&labelColor=000&logo=Linkedin&logoColor=white" alt="Linkedin" style="width: 100%; ">
 </a>
