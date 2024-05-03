@@ -6,3 +6,8 @@
 
 
 
+<a href="https://linkedin.com/in/aydinkivanc/">
+  <img src="https://img.shields.io/badge/-Linkedin-000?style=quare&labelColor=000&logo=Linkedin&logoColor=white" alt="Linkedin">
+</a>
+
+
